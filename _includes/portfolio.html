@@ -1,13 +1,33 @@
 <div class="jumbotron bg-danger">
 
-    <h1 class="display-3"><a name="portfolio">Portfolio</a></h1>
-    <p class="lead">These are the projects I've worked on.</p>
-    <hr class="my-4">
+  <h1 class="display-3"><a name="portfolio">Portfolio</a></h1>
+  <p class="lead">These are the projects I've worked on.</p>
+  <hr class="my-4">
+
+  <div class="row">
+    {% for project in site.data.projects %}
+      <div class="col-lg-3 col-sm-6">
+        <div class="card">
+          <a href="{{project.link}}" target="_blank">
+            <img class="card-img-top" src="assets/img/{{project.image}}" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">{{project.name}}</h4>
+            <p class="card-text">{{project.description}}</p>
+            <a href="{{project.link}}" target="_blank" class="btn btn-primary">View Project</a>
+            <a href="{{project.source}}" target="_blank" class="btn btn-primary">View Source on GitHub</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <hr class="my-4">
 
   <div class="row">
     <div class="col-lg-3 col-sm-6">
       <div class="card">
-        <img class="card-img-top" src="assets/images/thomasfirehelp.png" alt="Card image cap">
+        <img class="card-img-top" src="assets/img/thomasfirehelp.png" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title">ThomasFireHelp.com</h4>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -30,10 +50,10 @@
     </div>
     <div class="col-lg-3 col-sm-6">
       <div class="card">
-        <img class="card-img-top" src="assets/images/thomasfirehelp.png" alt="Card image cap">
+        <img class="card-img-top" src="assets/img/thomasfirehelp.png" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title">Patatap Lite</h4>
-          <p class="card-text">HTML5 Audio</p>
+          <p class="card-text">HTML5 Audio.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
@@ -41,7 +61,7 @@
     <div class="col-lg-3 col-sm-6">
       <div class="card">
         <a href="https://ipnicholson.github.io/drum-kit/" target="_blank">
-          <img class="card-img-top" src="assets/images/vanilla-js-drumkit.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/img/vanilla-js-drumkit.jpg" alt="Card image cap">
         </a>
         <div class="card-body">
           <h4 class="card-title">Vanilla JS Drum Kit</h4>
@@ -55,7 +75,7 @@
     <div class="col-lg-3 col-sm-6">
       <div class="card">
         <a href="https://github.com/girlscouts2017/girlscouts2017" target="_blank">
-          <img class="card-img-top" src="assets/images/takeactiongram.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/img/takeactiongram.jpg" alt="Card image cap">
         </a>
         <div class="card-body">
           <h4 class="card-title">TakeActionGram</h4>
