@@ -11,10 +11,10 @@
   source:
 
 - name: Patatap Lite
-  description: HTML5 Audio, Animations with Paper.js
-  image: 
-  link: 
-  source:
+  description: Partial-features clone of Patatap using HTML5 audio and Paper.js animation framework
+  image: patatap-lite-800x800.png
+  link: https://ipnicholson.github.io/patatap-lite/
+  source: https://github.com/ipnicholson/patatap-lite
 
 - name: Vanilla JS Drumkit
   description: HTML5 Audio, Animations with Paper.js
