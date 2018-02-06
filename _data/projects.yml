@@ -8,7 +8,7 @@
   description: Yelp clone CRUD app for campgrounds built with Node, Express, MongoDB, and Bootstrap 3
   image: yelpcamp.png
   link: https://yelpcamp-ipnicholson.herokuapp.com/
-  source:
+  source: https://github.com/ipnicholson/yelp-camp
 
 - name: Patatap Lite
   description: Partial-features clone of Patatap using HTML5 audio and Paper.js animation framework
@@ -18,24 +18,6 @@
 
 - name: Vanilla JS Drumkit
   description: HTML5 Audio, Animations with Paper.js
-  image: vanilla-js-drumkit.jpg
-  link: 
-  source:
-
-- name: Flix
-  description: IMDb clone
-  image: 
-  link: 
-  source:
-
-- name: TakeActionGram
-  description: Instagram clone
-  image: takeactiongram.jpg
-  link: 
-  source: https://github.com/girlscouts2017/girlscouts2017
-
-- name: AndysSuperOil.com
-  description: Web Design
-  image: takeactiongram.jpg
-  link: 
-  source: https://github.com/girlscouts2017/girlscouts2017
+  image: drum-kit480x480.png
+  link: https://ipnicholson.github.io/drum-kit/
+  source: https://github.com/ipnicholson/drum-kit
