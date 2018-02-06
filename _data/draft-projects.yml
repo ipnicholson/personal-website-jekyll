@@ -1,0 +1,17 @@
+- name: Flix
+  description: IMDb clone
+  image: 
+  link: 
+  source:
+
+- name: TakeActionGram
+  description: Instagram clone
+  image: takeactiongram.jpg
+  link: 
+  source: https://github.com/girlscouts2017/girlscouts2017
+
+- name: AndysSuperOil.com
+  description: Web Design
+  image: takeactiongram.jpg
+  link: 
+  source: https://github.com/girlscouts2017/girlscouts2017
