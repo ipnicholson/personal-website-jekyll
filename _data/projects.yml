@@ -1,11 +1,11 @@
 - name: ThomasFireHelp.com
-  description: Volunteer project, Fire recovery resources
+  description: Front-end web development for a fire recovery resource web app built with React. Volunteer project with professional git workflow using staging and production deployments
   image: thomasfirehelp.png
   link: http://staging.thomasfirehelp.com
   source: https://github.com/thomas-fire-help/thomas-fire-help
 
 - name: YelpCamp
-  description: Yelp clone CRUD app for campgrounds built with Node, Express, MongoDB, and Bootstrap 3
+  description: Yelp-like CRUD app for campgrounds built with Node, Express, MongoDB, Bootstrap 3 and using REST
   image: yelpcamp.png
   link: https://yelpcamp-ipnicholson.herokuapp.com/
   source: https://github.com/ipnicholson/yelp-camp
@@ -17,7 +17,7 @@
   source: https://github.com/ipnicholson/patatap-lite
 
 - name: Vanilla JS Drumkit
-  description: HTML5 Audio, Animations with Paper.js
+  description: <needs to be updated event listeners, HTML5 audio, CSS transitions>
   image: drum-kit480x480.png
   link: https://ipnicholson.github.io/drum-kit/
   source: https://github.com/ipnicholson/drum-kit
