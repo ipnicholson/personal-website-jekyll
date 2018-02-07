@@ -1,29 +1,36 @@
 machine:
   environment:
+    JEKYLL_ENV: production
+    RUBY_ENV: production
     PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
+    NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
+  ruby:
+    version: 2.4.1
   node:
     version: 8.1
 
 dependencies:
+  pre: 
+    - gem install jekyll s3_website
   override:
+    - bundle install: # note the colon here
+        timeout: 240 # note the double indentation (four spaces) here
     - yarn
   cache_directories:
+    - "/opt/circleci/.rvm/gems"
     - ~/.cache/yarn
 
-general:
-  branches:
-    ignore:
-      - gh-pages
+compile:
+  override:
+  - bundle exec jekyll b -d $CIRCLE_ARTIFACTS
 
 test:
-  override:
-    - "true"
+  post:
+    - bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external
 
 deployment:
+  # Only deploy master
   production:
     branch: master
     commands:
-      - aws s3 sync ./ s3://ipnicholson.com
-  staging:
-    branch: /^(?!master\/.*).*$/
-    commands:
+      - s3_website push
