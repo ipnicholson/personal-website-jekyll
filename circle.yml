@@ -3,7 +3,7 @@ machine:
     JEKYLL_ENV: production
     RUBY_ENV: production
     PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
-    NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
+    # NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
   ruby:
     version: 2.4.1
   node:
