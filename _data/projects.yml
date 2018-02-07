@@ -5,13 +5,13 @@
   source: https://github.com/thomas-fire-help/thomas-fire-help
 
 - name: YelpCamp
-  description: Yelp-like CRUD app for campgrounds built with Node, Express, MongoDB, Bootstrap 3 and using REST
+  description: Campground review CRUD app built with Node, Express, MongoDB and Bootstrap featuring RESTful routing, authentication, and partial views. Deployed to Heroku using environment variables.
   image: yelpcamp.png
   link: https://yelpcamp-ipnicholson.herokuapp.com/
   source: https://github.com/ipnicholson/yelp-camp
 
 - name: Patatap Lite
-  description: Partial-features clone of Patatap using HTML5 audio and Paper.js animation framework
+  description: PPartial-features clone of the Patatap interactive game using HTML5 audio and Paper.js animation framework
   image: patatap-lite-800x800.png
   link: https://ipnicholson.github.io/patatap-lite/
   source: https://github.com/ipnicholson/patatap-lite
