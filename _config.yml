@@ -3,5 +3,13 @@ sass:
     - _sass
     - node_modules
 
-exclude: []
+# Handling Reading
+exclude: ["Gemfile", "Gemfile.lock", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
