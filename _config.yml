@@ -4,7 +4,12 @@ sass:
     - node_modules
 
 # Handling Reading
-exclude: ["Gemfile", "Gemfile.lock", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - s3_website.yml
+  - circle.yml
 
 defaults:
   -
