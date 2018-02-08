@@ -1,23 +1,23 @@
 - name: ThomasFireHelp.com
-  description: Front-end web development for a fire recovery resource web app built with React. Volunteer project with professional git workflow using staging and production deployments
-  image: thomasfirehelp.png
+  description: Front-end web development for a fire recovery resources web app built with React. Volunteer project with professional git workflow using staging and production deployments
+  image: thomasfirehelp800x800.png
   link: http://staging.thomasfirehelp.com
   source: https://github.com/thomas-fire-help/thomas-fire-help
 
 - name: YelpCamp
-  description: Campground review CRUD app built with Node, Express, MongoDB and Bootstrap featuring RESTful routing, authentication, and partial views. Deployed to Heroku using environment variables.
+  description: Campground review CRUD app built with Node, Express, MongoDB and Bootstrap 3 featuring RESTful routing, authentication, and partial views. Deployed to Heroku with environment variables
   image: yelpcamp.png
   link: https://yelpcamp-ipnicholson.herokuapp.com/
   source: https://github.com/ipnicholson/yelp-camp
 
 - name: Patatap Lite
-  description: PPartial-features clone of the Patatap interactive game using HTML5 audio and Paper.js animation framework
+  description: Partial-features clone of the Patatap interactive game using HTML5 audio and Paper.js animation framework
   image: patatap-lite-800x800.png
   link: https://ipnicholson.github.io/patatap-lite/
   source: https://github.com/ipnicholson/patatap-lite
 
 - name: Vanilla JS Drumkit
-  description: <needs to be updated event listeners, HTML5 audio, CSS transitions>
+  description: Audiovisual game with animations powered CSS Transitions and sound effects from HTML5 audio
   image: drum-kit480x480.png
   link: https://ipnicholson.github.io/drum-kit/
   source: https://github.com/ipnicholson/drum-kit
