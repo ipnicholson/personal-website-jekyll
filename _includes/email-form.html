@@ -1,0 +1,32 @@
+<section class="jumbotron bg-warning">
+  <h1 class="display-3">Contact Me &nbsp;📩</h1>
+  <hr class="my-4">
+  <div class="row mt-4">
+    <div class="col-lg-4 col-md-6">
+      <form id="contactform" class="form-group" method="POST">
+        <div class="form-group">
+          <input type="text" class="form-control" name="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" name="_replyto" placeholder="Email">
+        </div>
+        <input type="hidden" name="_subject" value="Website contact" />
+        <div class="form-group">
+          <textarea class="form-control" name="message" placeholder="Message"></textarea>
+        </div>
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Protect email address from spambots
+  var protectEmail = function () {
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'ipni' + 'cholson+' + 'formspree' + '@' + 'gm' + 'ail' + '.' + 'com');
+  }
+
+  setTimeout(protectEmail, 2500)
+</script>
