@@ -8,7 +8,7 @@ site: <%= ENV['CIRCLE_ARTIFACTS'] %>
 # index_document: index.html
 # error_document: error.html
 
-# Set some good and long optimization values 
+# Set some good and long optimization values
 cache_control:
   "images/*": 'public, max-age=604800, s-max-age=86400'
   "css/*": 'public, max-age=604800, s-max-age=86400'
@@ -31,6 +31,8 @@ gzip:
 # Most of these shouldn't be included in the build, but I wouldn't want to be wrong and publish this
 exclude_from_upload:
   - Gemfile
+  - package.json
+  - yarn.lock
   - _config.yml
   - s3_website.yml
   - circle.yml
