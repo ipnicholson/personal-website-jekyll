@@ -36,6 +36,7 @@ exclude_from_upload:
   - _config.yml
   - s3_website.yml
   - circle.yml
+  - README.md
 
 # s3_reduced_redundancy: true
 
