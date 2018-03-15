@@ -1,1 +1,14 @@
 - name: Ruby on Rails
+  - frameworks:
+    - name: Rails
+  - libraries:
+    - name: Capybara
+      description:
+    - name: RSpec
+      description: Testing framework for Ruby
+
+
+- name: Front-End Web Development
+  - frameworks:
+    - name: React
+  -
