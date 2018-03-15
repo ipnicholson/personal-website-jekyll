@@ -1,4 +1,10 @@
-- name: ThomasFireHelp.com
+- name: IanDb
+  description: Ruby on Rails web app with unit testing using RSpec & Capybara, nested resources, form validations, view helpers
+  image: thomasfirehelp800x800.png
+  link: https://iandb.herokuapp.com/
+  source: https://github.com/ipnicholson/flix-tdd
+
+- name: ThomasFireHelp
   description: Front-end web development for a fire recovery resources web app built with React. Volunteer project with professional git workflow using staging and production deployments
   image: thomasfirehelp800x800.png
   link: http://staging.thomasfirehelp.com
