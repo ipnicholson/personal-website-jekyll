@@ -1,0 +1,37 @@
+- name: Rails
+  description: Rails 5
+  image:
+
+- name: Ruby
+  description: A programmer's best friend
+  image:
+
+- name: React
+  description: Modern front-end views
+  image:
+
+- name: JavaScript
+  description: The de-facto language of the web
+  image:
+
+- name: Test-Driven Development
+  description: Red. Green. Refactor.
+  image:
+
+- name: Bootstrap
+  description: Version 4
+  image:
+
+- name: CSS 3
+  description: Flexbox makes centering a cinch.
+  image:
+
+- name: HTML 5
+  image:
+
+- name: npm
+  description:
+  image:
+
+- name: Rails
+  image:
