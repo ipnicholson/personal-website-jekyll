@@ -1,5 +1,5 @@
 - name: ThomasFireHelp.com
-  description: Front-end web development for a fire recovery resources web app built with React. Volunteer project with professional git workflow using staging and production deployments
+  description: Front-end web development on an open-source fire recovery resources web app built with React. Volunteer project with professional git workflow using staging and production deployments
   image: thomasfirehelp800x800.png
   link: http://staging.thomasfirehelp.com
   source: https://github.com/thomas-fire-help/thomas-fire-help
