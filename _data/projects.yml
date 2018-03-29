@@ -4,6 +4,12 @@
   link: https://iandb.herokuapp.com/
   source: https://github.com/ipnicholson/iandb
 
+- name: "@CalPepperTree"
+  description: Twitter bot to raise awareness of this misnamed invasive plant. Uses the Twitter API and persists state by writing to CSV with command line output
+  image: calpeppertree540x540.png
+  link: https://twitter.com/CalPepperTree
+  source: https://github.com/ipnicholson/cal-pepper-tree
+
 - name: ThomasFireHelp
   description: Front-end web development on an open-source fire recovery resources web app built with React. Professional git workflow using staging and production deployments
   image: thomasfirehelp800x800.png
